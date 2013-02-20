@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.header {
+     min-height: 80px;
+     margin: 0;
+     color:#fff;
+     padding: 50px 20px 30px;
+     text-align: center;
+     border-bottom:1px solid #eee;
+     background: rgb(131, 53, 122);
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size:3em;
+    }
+     .header h2 {
+         font-weight:300;
+         color: rgb(77, 11, 77);
+         margin:0;
+     }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                 "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+.content {
+    padding: 0 30px 2em;
+}
+
+.content h2 {
+    color:#2B474F;
+    margin:50px 0 20px 0;
+    font-weight:bold;
+}
+
+/* NAVIGATION HEADER */
+#headerMenu ul {
+    background: #111;
+    color: #fff;
+}
+
+    #headerMenu a:hover {
+        background: #222;
+        border-color: #222;
+    }
+    #headerMenu a {
+        color: #fff;
+        text-shadow: 0 1px -1px #000;
+    }
+
+    #headerMenu .yui3-menu-active {
+        background: #222;
+    }
+
+    @media (max-width: 767px) {
+        #headerMenu ul {
+            text-align: center;
+        }
+    }
+
+
+.gist {
+    margin-top:25px;
+}
+.gist::before {
+    content: "Code:";
+    margin-bottom: 10px;
+    display: block; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+                 "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
