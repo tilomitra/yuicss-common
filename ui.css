@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
-    color: #333;
+    color: #777;
+    line-height: 1.6em;
+    font-size: 115%;
 }
 
 .header {
