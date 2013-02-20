@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
 }
 
-code {
+.content code {
     /* even though we have nowrap, for long lines like gallery, it's better to wrap. especially on smaller screens. */
     white-space: normal;
     line-height:2em;
