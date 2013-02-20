@@ -1,8 +1,7 @@
 body {
     font-family: sans-serif;
     color: #777;
-    line-height: 1.6em;
-    font-size: 115%;
+    
 }
 
 .header {
@@ -30,6 +29,8 @@ h1,h2,h3,h4,h5,h6 {
 .content {
     margin: 0 auto;
     width: 70%;
+    line-height: 1.6em;
+    font-size: 115%;
 }
 
     .content h2 {
