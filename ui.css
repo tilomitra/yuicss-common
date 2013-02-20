@@ -26,14 +26,21 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
 }
 .content {
-    padding: 0 30px 2em;
+    margin: 0 auto;
+    width: 70%;
 }
 
-.content h2 {
-    color:#2B474F;
-    margin:50px 0 20px 0;
-    font-weight:bold;
-}
+    .content h2 {
+        color:#2B474F;
+        margin:50px 0 20px 0;
+        font-weight:bold;
+    }
+    .content code {
+        /* even though we have nowrap, for long lines like gallery, it's better to wrap. especially on smaller screens. */
+        white-space: normal;
+        line-height:2em;
+    }
+
 
 /* NAVIGATION HEADER */
 #headerMenu ul {
@@ -54,12 +61,6 @@ h1,h2,h3,h4,h5,h6 {
         background: #222;
     }
 
-    @media (max-width: 767px) {
-        #headerMenu ul {
-            text-align: center;
-        }
-    }
-
 
 .gist {
     margin-top:25px;
@@ -73,8 +74,14 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
 }
 
-.content code {
-    /* even though we have nowrap, for long lines like gallery, it's better to wrap. especially on smaller screens. */
-    white-space: normal;
-    line-height:2em;
+
+
+@media (max-width: 767px) {
+    #headerMenu ul {
+        text-align: center;
+    }
+
+    .content {
+        width: 95%;
+    }
 }
