@@ -10,7 +10,6 @@ body {
      padding: 50px 20px 30px;
      text-align: center;
      border-bottom:1px solid #eee;
-     background: rgb(131, 53, 122);
  }
     .header h1 {
         margin: 0.2em 0;
@@ -18,7 +17,6 @@ body {
     }
      .header h2 {
          font-weight:300;
-         color: rgb(77, 11, 77);
          margin:0;
      }
 
