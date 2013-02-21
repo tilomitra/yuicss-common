@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 .content {
     margin: 0 auto;
     width: 70%;
+    margin-bottom:50px;
 }
     .content p {
         line-height: 1.6em;
