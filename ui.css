@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /* NAVIGATION HEADER */
-#headerMenu ul {
+#headerMenu {
     background: #111;
     color: #fff;
 }
